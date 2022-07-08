@@ -1,55 +1,140 @@
-html{
-  font-size: 14px;
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  
+}
+a{
+  text-decoration: none;
+  margin: 0;
+  color: #0000008c;
 }
 
-@media (min-width: 768px){
-  html{
-    font-size: 16px;
-  }
+
+h3{
+  color: black;
 }
 
-.blog-header{
-  margin-top: 7rem;
-  max-width: 700px;
+a:hover{
+  transform: scale(1.1);
+  color: black;
 }
 
-@media (max-width: 768px){
-  .blog-header{
-    margin-top: 8rem;
-  }
+.logo{
+  border-bottom: 2px solid teal;
+}
+
+h2.text-center, .row{
+  margin-top: 2rem;
+}
+
+.featured p{
+  text-align: justify;
+}
+.img-thumbnail{
+  border: 0 !important;
   
 }
 
-nav a{
+.col-md-6{
+  margin-bottom: 20px;
+}
+
+.featured img:hover{
+  transform: scale(1.1);
+}
+
+@media (max-width:768px){
+  .featured{
+    margin-top: 20px;
+    border-top: 2px solid teal;
+  }
+
+}
+
+hr{
+  height: 10px;
+  color: teal;
+}
+
+.footer-section {
+  background-color: teal;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  color: white;
+  
+}
+
+@media (min-width: 768px){
+  .footer-section{
+    padding-left: 19rem;
+  }
+}
+
+.footer-section a{
   text-decoration: none;
+  color: #c9c9c9;
 }
 
-.container{
-  max-width: 960px;
+.footer-section a:hover{
+  color: whitesmoke;
 }
 
-.team{
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
-  margin-bottom: 2rem;
+
+/* PAGES */
+
+.description{
+  text-align: justify;
 }
-.team::-webkit-scrollbar {
+
+@media (min-width: 768px){
+  .first-image{
+    padding: 30px;
+    padding-right: 60px;
+    padding-left: 0;
+  }
+
+  .description{
+    padding-left: 50px;
+    margin-top: 110px;
+  }
+}
+
+.fa-heart{
+  font-size: 1.6rem;
+}
+
+.like{
+  color: #f06b6b;
+}
+
+#box{
   display: none;
 }
 
-.card-deck .card{
-  min-width: 220px;
-}
 
-.card-text{
-  padding-top: 1rem;
-}
 
-.card-block{
-  min-height: 220px;
-}
 
-.active{
-  border-bottom: 1px solid black;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
